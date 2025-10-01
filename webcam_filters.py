@@ -83,19 +83,19 @@ while True:
 
     key = cv2.waitKey(0) & 0xFF
     if key == ord('r'):
-        filter_type == 'red_tint'
+        filter_type = 'red_tint'
     elif key == ord('g'):
-        filter_type == 'green_tint'
+        filter_type = 'green_tint'
     elif key == ord('b'):
-        filter_type == 'blue_tint'
+        filter_type = 'blue_tint'
     elif key == ord('y'):
-        filter_type == 'gray'
+        filter_type = 'gray'
     elif key == ord('s'):
-        filter_type == 'sobel'
+        filter_type = 'sobel'
     elif key == ord('c'):
-        filter_type == 'canny'
+        filter_type = 'canny'
     elif key == ord('o'):
-        filter_type == 'orignal'
+        filter_type = 'orignal'
     elif key == ord('q'):
         break
 
